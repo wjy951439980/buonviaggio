@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>treni</title>
+		<link rel="stylesheet" href="./css/treni.css">
+		<link rel="shortcut icon" href="./img/logo.ico">
+		<script src="./js/shuliang.js" defer="defer" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="biggest">
+			<!-- 顶部 -->
+			<div class="f1">
+				<div class="name">
+					<img style="width: 80px;" src="./img/logo.png"  alt="Logo">
+				</div>
+				<div class="name1">BuonViaggio</div>
+					<input style="height: 36px; margin-left: 10px; font-size: 20px;" 
+					       type="text" size="35" id="fangdajing" placeholder="Cerca...">
+				<!-- 右侧图标 -->
+				<div class="icon">
+					<div class="icon1" style="border-radius: 50%;">
+						<img style="width: 50px; border-radius: 50%;" src="./img/Accedi.png" alt="用户">
+					</div>
+					<div class="name2">Accedi</div>
+					<div class="icon1" style="border-radius: 50%;">
+						<img style="width: 50px; border-radius: 50%;" src="./img/Ordine.png" alt="订单">
+					</div>
+					<div class="name2">Ordine</div>
+					<div class="icon1" style="border-radius: 50%;">
+						<img style="width: 50px; border-radius: 50%;" src="./img/Ricordare.png" alt="消息">
+					</div>
+					<div class="name2">Ricordare</div>
+				</div>
+			</div>
+			<!-- 下面 -->
+			<div class="f2">
+				<div class="left">
+					<div class="p1">
+						<div class="v1">
+							<a href="./index.html"><img style="width: 50px;" src="./img/Soggiorno.png" alt="住宿" ></a>
+						</div>
+						<div class="name3">
+							<a href="./index.html">Soggiorno</a>
+						</div>
+					</div>
+					<div class="p1">
+						<div class="v1">
+							<a href="./voli.html"><img style="width: 50px;" src="./img/Voli.png" alt="飞机票"></a>
+						</div>
+						<div class="name3">
+							<a href="./voli.html">Voli</a>
+							</div>
+					</div>
+					<div class="w">
+					<div class="p1">
+						<div class="v1">
+							<a href="./treni.html"><img style="width: 50px;" src="./img/Treni.png" alt="火车票"></a>
+						</div>
+						<div class="name3">
+							<a href="./treni.html">Treni</a>
+							</div>
+					</div>
+				    </div>
+					<div class="p1">
+						<div class="v1">
+							<a href="./esplori.html"><img style="width: 50px;" src="./img/Esplori.png" alt="探索"></a>
+						</div>
+						<div class="name3">
+							<a href="./esplori.html">Esplori</a>
+							</div>
+					</div>
+				</div>
+				<!-- 右侧 -->
+				<div class="right">
+						<div class="biaoti">Prenota i biglietti del treno</div>
+						<div class="jihe">
+							<div class="xuanze" >
+								<div style="display: inline-block; margin-right: 30px; vertical-align: middle;">
+									<select>
+										<option>Andata e ritorno</option>
+										<option>Solo andata</option>
+									</select>
+								</div>
+								<div style="display: inline-block; ">
+									<ul class="btn-numbox">
+										<li>
+											<ul class="count">
+												<li><span id="num-jian1" class="num-jian1">-</span></li>
+												<li><input type="text" class="input-num1" id="input-num1" value="0" /></li>
+												<li><span id="num-jia1" class="num-jia1">+</span></li>
+											</ul>
+										</li>
+										<p style="display: inline-block; color: #2d2c7c; font-size: 15px; font-weight: bold;">Adulto</p>
+									</ul>
+								</div>
+								<div style="display: inline-block;">
+									<ul class="btn-numbox">
+										<li>
+											<ul class="count">
+												<li><span id="num-jian2" class="num-jian2">-</span></li>
+												<li><input type="text" class="input-num2" id="input-num2" value="0" /></li>
+												<li><span id="num-jia2" class="num-jia2">+</span></li>
+											</ul>
+										</li>
+										<p style="display: inline-block; color: #2d2c7c; font-size: 15px; font-weight: bold;">Bambino</p>
+									</ul>
+								</div>
+								<div style="display: inline-block;">
+									<ul class="btn-numbox">
+										<li>
+											<ul class="count">
+												<li><span id="num-jian3" class="num-jian3">-</span></li>
+												<li><input type="text" class="input-num3" id="input-num3" value="0" /></li>
+												<li><span id="num-jia3" class="num-jia3">+</span></li>
+											</ul>
+										</li>
+										<p style="display: inline-block; color: #2d2c7c; font-size: 15px; font-weight: bold;">Neonato</p>
+									</ul>
+								</div>
+							</div>
+							<!-- 表单 -->
+							<div class="form">
+								<input style="height: 50px; margin: 25px 25px 25px 25px; font-size: 20px;" 
+									   type="text" size="15"id="dingwei" placeholder="Da:">
+								
+									<img style="height: 50px; border-radius: 10px;background-color:white;" 
+										 src="./img/jiantou.png" alt="交换">
+									
+								<input style="height: 50px; margin: 25px 75px 25px 25px; font-size: 20px;" 
+									   type="text" size="15" id="dingwei" placeholder="A: ">	
+	
+								<input style="height: 50px; margin: 25px 5px 25px 75px;	font-size: 20px;" 
+									   type="text" size="15" placeholder="Data di inizio"
+									   onfocus="(this.type='date')"  onblur="(this.type='text')">
+								─
+								<input style="height: 50px; margin: 25px 25px 25px 5px; font-size: 20px;" 
+									   type="text" size="15" placeholder="Aggiungi ritorno"
+									   onfocus="(this.type='date')"  onblur="(this.type='text')">						   
+								<button style="background-color: orange;">
+									<img style="height: 40px;" src="./img/sousuo.png" alt="搜索">
+								</button>
+							</div>
+						</div>
+					<!--底部 -->
+					<div class="text" >
+						<div class="text1">
+							<div style="padding-top: 80px; ">Informazioni su BuonViaggio</div>
+							<div style="padding-top: 15px; ">Chi siamo</div>
+							<div style="padding-top: 15px; ">Media</div>
+							<div style="padding-top: 15px; ">Risorse e Politiche</div>
+							<div style="padding-top: 15px; ">Fiducia e Sicurezza</div>
+							<div style="padding-top: 15px; ">Contattaci</div>
+							<div style="padding-top: 15px; ">Dichiarazione accessibilita</div>
+					    </div>
+						<div class="text2">
+							<div style="padding-top: 80px; ">Sito/Valuta</div>
+							<div class="select">
+							<select>
+								<option value="Italia">Italia</option>
+								<option value="United Kingdom">United Kingdom</option>
+								<option value="United States">United States</option>
+								<option value="China">China</option>
+							</select>
+							<select>
+								<option value="€EUR">€EUR</option>
+								<option value="£GBP">£GBP</option>
+								<option value="$USD">$USD</option>
+								<option value="¥CNY">¥CNY</option>
+							</select>
+						    </div>
+						</div>
+					</div>
+					<div class="bot">
+						<img style="width: 80px; " src="./img/logo.png" alt="Logo">
+						<div class="text3">Privacy</div>
+						<div class="text3">Termini e Condizioni</div>
+						<div class="text3">Note Legail</div>
+						<div class="text3">@BuonViaggio</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

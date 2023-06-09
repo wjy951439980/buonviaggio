@@ -1,0 +1,218 @@
+body{
+	margin: 0;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+.biggest{
+	width: 100%;
+	margin: 0;
+}
+#fangdajing{
+	background-image: url('../img/sousuo.png');
+	border-radius: 5px;  /*设置圆角半径*/
+    padding-left: 30px;  /*设置内边距防止遮盖住图片*/
+    background-size:25px 25px;  /*这里是图片的大小*/
+    background-repeat:no-repeat ;  /*让图片不重复*/
+    background-position: 3px; /*图片在input中的位置  离左边的距离和离右边的距离*/
+}
+.f1{
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	background-color: #2D2C7C;
+}
+.name{
+	display: inline-block;
+	color: white;
+	border-radius: 100%;
+	margin: 15px 10px 15px 80px;
+	
+}
+.name img{
+	border-radius: 50%;
+}
+.name1{
+	display: inline-block;
+	margin-right: 200px;
+	color:orange
+}
+.name2{
+	margin-right: 100px;
+}
+.icon{
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: right;
+	color: orange;
+}
+.icon1{
+	display: inline-block;
+	margin-right: 10px;
+	background-color: orange;
+}
+
+.f2{
+	display: flex;
+}
+.left{
+	width: 20%;
+	border: 1px solid #2D2C7C;
+	
+}
+.right{
+	flex: 1;
+	border: 1px solid #2D2C7C;
+}
+.w{
+	background-color: orange;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 40px;
+	border-radius: 10px;
+}
+.p1{
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+.v1{
+	display: inline-block;
+	margin-right: 25px;
+}
+.name3{
+	display: inline-block;
+	color: #2D2C7C;
+	font-weight: bold;
+}
+.biaoti{
+	color: #2D2C7C;
+	font-size: 40px;
+	font-weight: 800;
+	margin: 30px 0 20px 25px;
+}
+.biaoti1{
+	color: #2D2C7C;
+	font-size: 40px;
+	font-weight: 800;
+	margin: 30px 15px 20px 25px;
+}
+.biaoti2{
+	display: inline-block;
+	position: absolute;
+	right: 80px;
+	color: #2D2C7C;
+	font-size: 18px;
+	font-weight: 800;
+	/* margin: 30px 15px 20px 25px; */
+}
+.biaoti3{
+	font-size: 30px;
+	color: #2D2C7C;
+	font-weight: 800;
+	margin-left: 15px;
+}
+.form{
+	border: 1px solid #2D2C7C;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	margin: 50px 50px 50px 50px;
+}
+.form input{
+	background-color: #e9e9e9;
+	border: 0;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+.form button{
+	margin: 10px;
+	padding: 10px;
+	position: absolute;
+	right: 80px;
+	border-radius: 10px;
+	border: none;
+}
+.put input{
+	height: 20px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #e9e9e9;
+	position: relative;
+	top: 5px;
+}
+#dingwei{
+	background-image: url('../img/dingwei.png');
+	border-radius: 10px;  /*设置圆角半径*/
+    padding-left: 30px;              /*设置内边距防止遮盖住图片*/
+    background-size:25px 25px;    /*这里是图片的大小*/
+    background-repeat:no-repeat ;  /*让图片不重复*/
+    background-position: 3px; /*图片在input中的位置  离左边的距离和离右边的距离*/
+
+}
+.roma{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.picture{
+	margin-left: 30px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+.hotel img{
+	border-radius: 30px;
+}
+.p2{
+	display: inline-block;
+}
+.text{
+	width: 100%;
+	background-color: #2D2C7C;
+	display: flex;
+}
+.text select{
+	border: 2px solid orange;
+	border-radius: 5px;
+	background-color: #2D2C7C;
+	color: white;
+	font-size: 20px;
+	width: 170px;
+	display: flex;
+	margin-top: 15px;
+}
+.text1{
+	color: white;
+	margin-left: 250px;
+}
+.text2{
+	color: white;
+
+	margin-left: 550px;
+}
+.bot{
+	padding-top: 70px;
+	padding-left: 150px;
+	background-color: #2D2C7C;
+
+}
+.text3{
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 70px;
+	display: inline-block;
+} 
